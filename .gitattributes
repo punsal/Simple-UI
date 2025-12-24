@@ -1,0 +1,38 @@
+# =========================================
+# Default behavior
+# =========================================
+* text=auto eol=lf
+
+# =========================================
+# Unity text-based assets (YAML)
+# =========================================
+*.meta      text eol=lf
+*.unity     text eol=lf
+*.prefab    text eol=lf
+*.asset     text eol=lf
+*.asmdef    text eol=lf
+*.asmref    text eol=lf
+
+# =========================================
+# Source & config files
+# =========================================
+*.cs        text eol=lf
+*.json      text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.md        text eol=lf
+
+# =========================================
+# Binary files (never modify line endings)
+# =========================================
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.psd       binary
+*.tga       binary
+*.fbx       binary
+*.wav       binary
+*.mp3       binary
+*.ogg       binary
+*.mp4       binary
+*.mov       binary
