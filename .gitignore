@@ -1,0 +1,125 @@
+############################################
+# Unity (general)
+############################################
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+/[Cc]ache/
+/[Bb]ee/
+/[Bb]ee~/
+/[Oo]bj~/
+/[Ll]ibrary~/
+/[Tt]emp~/
+
+sysinfo.txt
+*.stackdump
+
+############################################
+# Builds / exports
+############################################
+/iOSBuild/
+/AndroidBuild/
+/Export/
+/Exports/
+/Release/
+/Releases/
+
+############################################
+# Unity Package Manager
+############################################
+!/[Pp]ackages/packages-lock.json
+
+############################################
+# Visual Studio / MSBuild
+############################################
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+############################################
+# JetBrains Rider
+############################################
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.DotSettings
+**/.idea/**
+
+############################################
+# Unity solution files
+############################################
+*.csproj
+*.sln
+*.unityproj
+
+############################################
+# macOS
+############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+############################################
+# Windows
+############################################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+############################################
+# Xcode / iOS
+############################################
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+############################################
+# Android / Gradle
+############################################
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+*.iml
+
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+
+############################################
+# Logs / temp
+############################################
+*.log
+*.tmp
+*.bak
+*.swp
