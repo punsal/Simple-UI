@@ -1,0 +1,15 @@
+{
+  "name": "SimpleUI.Editor",
+  "rootNamespace": "SimpleUI.Editor",
+  "references": [
+    "SimpleUI.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true,
+  "noEngineReferences": false
+}
