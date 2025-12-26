@@ -2,6 +2,11 @@ using UnityEngine;
 
 namespace SimpleUI.SafeArea
 {
+    /// <summary>
+    /// Passive safe-area applier.
+    /// This component does not run its own Update loop; it is driven by SimpleUIManager.
+    /// It converts Screen.safeArea (pixels) to normalized anchors on the target RectTransform.
+    /// </summary>
     [DisallowMultipleComponent]
     [RequireComponent(typeof(RectTransform))]
     public sealed class SafeAreaFitter : MonoBehaviour

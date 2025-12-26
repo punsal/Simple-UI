@@ -4,6 +4,16 @@ using SimpleUI.SafeArea;
 
 namespace SimpleUI
 {
+    /// <summary>
+    /// Central orchestrator for Simple-UI.
+    /// Detects Screen/safe-area changes and applies updates in a deterministic order:
+    /// 1) Apply safe-area anchors (SafeAreaFitter)
+    /// 2) Rebuild layout immediately in Editor/Device Simulator (Editor-only)
+    /// 3) Apply unsafe-area overlay (UnsafeAreaOverlay)
+    ///
+    /// NOTE: If you want live updates in Edit Mode, add [ExecuteAlways] to this class only.
+    /// SafeAreaFitter and UnsafeAreaOverlay must remain passive to avoid timing/race issues.
+    /// </summary>
     [DisallowMultipleComponent]
     [ExecuteAlways]
     public sealed class SimpleUIManager : MonoBehaviour

@@ -3,6 +3,11 @@ using UnityEngine.UI;
 
 namespace SimpleUI.SafeArea
 {
+    /// <summary>
+    /// Passive debug overlay for unsafe areas (top/bottom).
+    /// Driven by SimpleUIManager to avoid update-order issues in the editor.
+    /// Uses normalized anchors derived from Screen.safeArea.
+    /// </summary>
     [DisallowMultipleComponent]
     public sealed class UnsafeAreaOverlay : MonoBehaviour
     {
